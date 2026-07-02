@@ -1,0 +1,26 @@
+# Environment variables (Sensitive Data)
+.env
+*.env
+
+# Python
+server/venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js
+client/node_modules/
+node_modules/
+client/dist/
+dist/
+.npm
+*.log
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
